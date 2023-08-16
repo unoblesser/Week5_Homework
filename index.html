@@ -5,18 +5,409 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>index</title>
-    <script type="module" crossorigin src="/Week5_Homework/assets/index-870a9f7e.js"></script>
-    <link rel="stylesheet" href="/Week5_Homework/assets/index-4cfea7bd.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script type="module" crossorigin src="/Week5_Homework/assets/index-e15c0fb6.js"></script>
+    <link rel="stylesheet" href="/Week5_Homework/assets/index-f56ce260.css">
   </head>
   <body>
-    <h1 class="header">我是 header</h1>
-<a href="index.html">index</a>
-<a href="about.html">about</a>
-<a href="contact.html">contact</a>
-    <h1 class="index-title">我是首頁</h1>
-    <img src="../assets/images/cat.jpg" style="width: 300px;" alt="cat">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 
-    <a href="#"><img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/053bcf3afe88348b79971d2ea8de28f179cba5c5/week5/logo-ANSWER.svg" alt="logo"></a>
+    <div class="d-flex">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+<div class="left">
+    <div>
+        <a href="#"><img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/053bcf3afe88348b79971d2ea8de28f179cba5c5/week5/logo-ANSWER.svg" class="left-img" alt="logo"></a>
+        <ul>
+            <a href="#" class="left-column">
+                <li>
+                    <span class="left-icon material-symbols-outlined">insert_chart</span>
+                    <p class="left-text">Dashboard</p>
+                </li>
+            </a>
+            <a href="#" class="left-column">
+                <li>
+                    <span class="left-icon material-symbols-outlined">forum</span>
+                    <p class="left-text">Question</p>
+                </li>
+            </a>
+            <a href="#" class="left-column">
+                <li>
+                    <span class="left-icon material-symbols-outlined">assignment</span>
+                    <p class="left-text">Assignment</p>
+                </li>
+            </a>
+            <a href="#" class="left-column">
+                <li>
+                    <span class="left-icon material-symbols-outlined">video_library</span>
+                    <p class="left-text">Course</p>
+                </li>
+            </a>
+            <a href="index.html" class="left-column">
+                <li>
+                    <span class="left-icon material-symbols-outlined">group</span>
+                    <p class="left-text">Admin</p>
+                </li>
+            </a>
+            <a href="#" class="left-column">
+                <li>
+                    <span class="left-icon material-symbols-outlined">settings</span>
+                    <p class="left-text">Settings</p>
+                </li>
+            </a>
+        </ul>
+    </div>
+    <div class="footer-user">
+        <a href="#" class="d-flex">
+            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week5/andychen.jpeg?raw=true" class="footer-img" alt="img-andy">
+            <div class="footer-text ml16">
+                <p class="fw-bold fz16 gray-900 mb4">Andy Chen</p>
+                <p class="fz14 gray-600">andy0401@mail.com</P>
+            </div>
+        </a>
+    </div>
+</div>
+
+        <div class="d-flex flex-column container">
+            <div class="header d-flex justify-content-between">
+                <div class="d-flex">
+                    <h1 class="fz24 fw-bold">Admin</h1>
+                    <a type="button" data-bs-toggle="modal" data-bs-target="#exampleModal-add" class="d-flex align-items-center ml48">
+                        <span class="green material-symbols-outlined">add</span>
+                        <p class="fw-bold ml8 gray-900">Add New Admin</p>
+                    </a>
+                </div>
+                <div class="d-flex fw-bold">
+                    <span class="fw-bold material-symbols-outlined">search</span>
+                    <span class="fw-bold material-symbols-outlined ml24">notifications_active</span>
+                </div>
+            </div>
+            <div class="content d-flex flex-column">
+                <ul class="fw-bold border-gray-900 d-flex align-items-center pb4">
+                    <li class="d-flex align-items-center w-10">
+                        <p>ID</p>
+                        <span class="green material-symbols-outlined">arrow_downward</span>
+                    </li>
+                    <li class="w-20">Name</li>
+                    <li class="w-40">Email</li>
+                    <li class="w-22">Verified</li>
+                </ul>
+                <ol class="d-flex flex-column">
+                    <li>
+                        <ul class="d-flex align-items-center column border-gray-400">
+                            <li class="w-10">#1</li>
+                            <li class="w-20">Emir Wicks</li>
+                            <li class="w-40">emir.wicks@mail.com</li>
+                            <li class="w-22">Yes</li>
+                            <li class="w-8 d-flex justify-content-end">
+                                <a type="button" data-bs-toggle="modal" data-bs-target="#exampleModal-search"><span class="fw-bold material-symbols-outlined">visibility</span></a>
+                                <a type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><span class="fw-bold material-symbols-outlined ml24">edit</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="d-flex align-items-center column border-gray-400">
+                            <li class="w-10">#2</li>
+                            <li class="w-20">Zaina Goldsmith</li>
+                            <li class="w-40">zaina.goldsmith@mail.com</li>
+                            <li class="w-22">Yes</li>
+                            <li class="w-8 d-flex justify-content-end">
+                                <a href="#"><span class="fw-bold material-symbols-outlined">visibility</span></a>
+                                <a href="#"><span class="fw-bold material-symbols-outlined ml24">edit</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="d-flex align-items-center column border-gray-400">
+                            <li class="w-10">#3</li>
+                            <li class="w-20">Mahima Lopez</li>
+                            <li class="w-40">zaina.goldsmith@mail.com</li>
+                            <li class="w-22">Yes</li>
+                            <li class="w-8 d-flex justify-content-end">
+                                <a href="#"><span class="fw-bold material-symbols-outlined">visibility</span></a>
+                                <a href="#"><span class="fw-bold material-symbols-outlined ml24">edit</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="d-flex align-items-center column border-gray-400">
+                            <li class="w-10">#4</li>
+                            <li class="w-20">Pharrell Murray</li>
+                            <li class="w-40">pharrell.murray@mail.com</li>
+                            <li class="w-22">Yes</li>
+                            <li class="w-8 d-flex justify-content-end">
+                                <a href="#"><span class="fw-bold material-symbols-outlined">visibility</span></a>
+                                <a href="#"><span class="fw-bold material-symbols-outlined ml24">edit</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="d-flex align-items-center column border-gray-400">
+                            <li class="w-10">#5</li>
+                            <li class="w-20">Annika Mcbride</li>
+                            <li class="w-40">annika.mcbride@mail.com</li>
+                            <li class="w-22">Yes</li>
+                            <li class="w-8 d-flex justify-content-end">
+                                <a href="#"><span class="fw-bold material-symbols-outlined">visibility</span></a>
+                                <a href="#"><span class="fw-bold material-symbols-outlined ml24">edit</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="d-flex align-items-center column border-gray-400">
+                            <li class="w-10">#6</li>
+                            <li class="w-20">Fatimah Clark</li>
+                            <li class="w-40">fatimah.clark@mail.com</li>
+                            <li class="w-22">Yes</li>
+                            <li class="w-8 d-flex justify-content-end">
+                                <a href="#"><span class="fw-bold material-symbols-outlined">visibility</span></a>
+                                <a href="#"><span class="fw-bold material-symbols-outlined ml24">edit</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="d-flex align-items-center column border-gray-400">
+                            <li class="w-10">#7</li>
+                            <li class="w-20">Klaudia Rhodes</li>
+                            <li class="w-40">klaudia.rhodes@mail.com</li>
+                            <li class="w-22">Yes</li>
+                            <li class="w-8 d-flex justify-content-end">
+                                <a href="#"><span class="fw-bold material-symbols-outlined">visibility</span></a>
+                                <a href="#"><span class="fw-bold material-symbols-outlined ml24">edit</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="d-flex align-items-center column border-gray-400">
+                            <li class="w-10">#8</li>
+                            <li class="w-20">Tillie Lucero</li>
+                            <li class="w-40">tillie.lucero@mail.com</li>
+                            <li class="w-22">Yes</li>
+                            <li class="w-8 d-flex justify-content-end">
+                                <a href="#"><span class="fw-bold material-symbols-outlined">visibility</span></a>
+                                <a href="#"><span class="fw-bold material-symbols-outlined ml24">edit</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="d-flex align-items-center column border-gray-400">
+                            <li class="w-10">#9</li>
+                            <li class="w-20">Sabrina Stephenson</li>
+                            <li class="w-40">sabrina.stephenson@mail.com</li>
+                            <li class="w-22">Yes</li>
+                            <li class="w-8 d-flex justify-content-end">
+                                <a href="#"><span class="fw-bold material-symbols-outlined">visibility</span></a>
+                                <a href="#"><span class="fw-bold material-symbols-outlined ml24">edit</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul  class="d-flex align-items-center column border-gray-400">
+                            <li class="w-10">#10</li>
+                            <li class="w-20">Annie Smith</li>
+                            <li class="w-40">annie.smith@mail.com</li>
+                            <li class="w-22">Yes</li>
+                            <li class="w-8 d-flex justify-content-end">
+                                <a href="#"><span class="fw-bold material-symbols-outlined">visibility</span></a>
+                                <a href="#"><span class="fw-bold material-symbols-outlined ml24">edit</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+            <div class="d-flex justify-content-end mb32">
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination">
+                      <li class="page-item">
+                        <a class="page-link green" href="#" aria-label="Previous">
+                          <span aria-hidden="true">&laquo;</span>
+                        </a>
+                      </li>
+                      <li class="page-item"><a class="page-link gray-900" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link gray-900" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link gray-900" href="#">3</a></li>
+                      <li class="page-item">
+                        <a class="page-link green" href="#" aria-label="Next">
+                          <span aria-hidden="true">&raquo;</span>
+                        </a>
+                        <a class="visually-hidden-focusable" href="#content">Skip to main content</a>
+                      </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="exampleModal-search" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="d-flex search-content">
+                <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week5/emir.jpeg?raw=true" class="img-width" alt="personal-img">
+                <div class="ml24 content-width">
+                    <div class="d-flex justify-content-between mb8">
+                        <h3 class="modal-title" id="exampleModalLabel">#1</h3>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <h3>Admin</h3>
+                    <h2 class="fz24 mb8">Emir Wicks</h2>
+                    <p class="fz1 gray-600">emir.wicks@mail.com</p>
+                    <div class="d-flex justify-content-between align-items-center mb24">
+                        <p class="fz14 verified">Verified</p>
+                        <a type="button"  data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"><span class="material-symbols-outlined green">expand_more</span></a>
+                    </div>
+                    <div class="expand-more collapse" id="collapseExample">
+                        <button type="button" class="btn btn-outline-danger fw-bold">Deactivate</button>
+                        <button type="button" class="btn btn-success fw-bold ml16">Edit</button>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content modal-dialog-scrollable">
+            <div class="modal-header-admin admin-width mt32">
+              <h2 class="modal-title fz24 fw-bold" id="exampleModalLabel">Edit Admin</h2>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="admin-width">
+                <h3 class="fz20 fw-bold mt32 mb16">Account</h3>
+                <ul class="border-gray-400">
+                    <li class="d-flex flex-column mb16">
+                        <label for="name" class="fz14 mb4">Name</label>
+                        <input type="text" id="name" class="input-box"  placeholder="Emir Wicks">
+                    </li>
+                    <li class="d-flex flex-column mb16">
+                        <label for="mail" class="fz14 mb4">Email</label>
+                        <input type="email" id="mail" class="input-box"  placeholder="emir.wicks@mail.com">
+                    </li>
+                </ul>
+            </div>
+            <div class="border-gray-400 admin-width">
+                <h3 class="fz20 fw-bold mb16">Verification</h3>
+                <div class="d-flex justify-content-between align-items-center mb16">
+                    <div class="d-flex align-items-center">
+                        <span class="material-symbols-outlined">check_circle</span>
+                        <p class="fw-bold ml8">Unverified</p>
+                    </div>
+                    <p>2020/4/12</p>
+                </div>
+                <button type="button" class="btn btn-outline-secondary admin-width send-verified-add">Send Verification Mail</button>
+            </div>
+            <div class="border-gray-400 admin-width">
+                <h3 class="fz20 mb16">Access Level</h3>
+                <select class="form-select form-select-lg choose-access-level mb-3" aria-label=".form-select-lg example">
+                    <option selected disabled>-Choose access level-</option>
+                    <option value="1">Admin</option>
+                </select>
+            </div>
+            <div class="border-gray-400 admin-width">
+                <h3 class="fz20 fw-bold mb16">Custom Access</h3>
+                <ul>
+                    <li class="d-flex mb16">
+                        <input type="checkbox" value="1" name="Lecture">
+                        <label for="Lecture" class="ml8">Lecture</label>
+                    </li>
+                    <li class="d-flex mb16">
+                        <input type="checkbox" value="1" name="Coupon">
+                        <label for="Coupon" class="ml8">Coupon</label>
+                    </li>
+                    <li class="d-flex mb16">
+                        <input type="checkbox" value="1" name="Message">
+                        <label for="Message" class="ml8">Message</label>
+                    </li>
+                    <li class="d-flex mb16">
+                        <input type="checkbox" value="1" name="Setting">
+                        <label for="Setting" class="ml8">Setting</label>
+                    </li>
+                    <li class="d-flex mb16">
+                        <input type="checkbox" value="1" name="Task Menu">
+                        <label for="Task Menu" class="ml8">Task Menu</label>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="text-align-right admin-width">
+                <button type="button" class="btn btn-outline-success modal-btn">Cancel</button>
+                <button type="button" class="btn btn-success modal-btn">Update</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="exampleModal-add" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content modal-dialog-scrollable">
+            <div class="modal-header-admin admin-width mt32">
+              <h2 class="modal-title fz24 fw-bold" id="exampleModalLabel">New Admin</h2>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="admin-width">
+                <h3 class="fz20 fw-bold mt32 mb16">Account</h3>
+                <ul class="border-gray-400">
+                    <li class="d-flex flex-column mb16">
+                        <label for="name" class="fz14 mb4">Name</label>
+                        <input type="text" id="name" class="input-box-add">
+                    </li>
+                    <li class="d-flex flex-column mb16">
+                        <label for="mail" class="fz14 mb4">Email</label>
+                        <input type="email" id="mail" class="input-box-add">
+                    </li>
+                </ul>
+            </div>
+            <div class="border-gray-400 admin-width">
+                <h3 class="fz20 fw-bold mb16">Verification</h3>
+                <div class="d-flex justify-content-between align-items-center mb16">
+                    <div class="d-flex align-items-center">
+                        <span class="material-symbols-outlined red">warning</span>
+                        <p class="fw-bold ml8">Unverified</p>
+                    </div>
+                    <p class="visually-hidden">2020/4/12</p>
+                </div>
+                <button type="button" class="fw-bold btn btn-outline-secondary admin-width send-verified">Send Verification Mail</button>
+            </div>
+            <div class="border-gray-400 admin-width">
+                <h3 class="fz20 mb16">Access Level</h3>
+                <select class="form-select form-select-lg choose-access-level mb-3" aria-label=".form-select-lg example">
+                    <option selected disabled>-Choose access level-</option>
+                    <option value="1">Admin</option>
+                </select>
+            </div>
+            <div class="border-gray-400 admin-width">
+                <h3 class="fz20 fw-bold mb16">Custom Access</h3>
+                <ul>
+                    <li class="d-flex mb16">
+                        <input type="checkbox" value="1" name="Lecture">
+                        <label for="Lecture" class="ml8">Lecture</label>
+                    </li>
+                    <li class="d-flex mb16">
+                        <input type="checkbox" value="1" name="Coupon">
+                        <label for="Coupon" class="ml8">Coupon</label>
+                    </li>
+                    <li class="d-flex mb16">
+                        <input type="checkbox" value="1" name="Message">
+                        <label for="Message" class="ml8">Message</label>
+                    </li>
+                    <li class="d-flex mb16">
+                        <input type="checkbox" value="1" name="Setting">
+                        <label for="Setting" class="ml8">Setting</label>
+                    </li>
+                    <li class="d-flex mb16">
+                        <input type="checkbox" value="1" name="Task Menu">
+                        <label for="Task Menu" class="ml8">Task Menu</label>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="text-align-right admin-width">
+                <button type="button" class="btn btn-outline-success modal-btn">Cancel</button>
+                <button type="button" class="btn btn-success modal-btn">Add</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
     
   </body>
 </html>
