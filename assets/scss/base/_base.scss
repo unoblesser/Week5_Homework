@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', 'Roboto Mono', sans-serif, monospace;
+}
+img{
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+}
+a{
+    color: $gray-900;
+    text-decoration: none;
+}
+a :hover{
+    color: $green;
+}

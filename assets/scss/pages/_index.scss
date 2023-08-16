@@ -1,3 +1,96 @@
-.index-title {
-  font-size: 100px;
+.container{
+    max-width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+.header{
+    margin: 32px 0;
+}
+.content{
+    margin: 16px 0;
+}
+.footer{
+    margin: 32px;
+}
+.border-gray-900{
+    border-bottom: 1px solid $gray-900;
+}
+.column{
+    padding: 17px 0;
+}
+.border-gray-400{
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid $gray-400;
+}
+.admin-width{
+    width: 416px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.search-content{
+    padding-top: 32px;
+    padding-left: 32px;
+    padding-bottom: 32px;
+}
+.content-width{
+    width: 256px;
+}
+.img-width{
+    max-width: 141px;
+    height: 141px;
+}
+.verified{
+    background: $gray-100;
+    padding: 4px;
+}
+.expand-more{
+    text-align: end;
+}
+.input-box-add{
+    font-size: 16px;
+    border: 2px solid $gray-900;
+    border-radius: 2px;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 16px;
+}
+.input-box{
+    font-size: 16px;
+    background: $gray-100;
+    border: 2px solid $gray-100;
+    border-radius: 2px;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 16px;
+}
+.send-verified{
+    color: $green;
+    padding: 16px 0;
+}
+.send-verified-add{
+    color: $gray-400;
+    padding: 16px 0;
+}
+.choose-access-level{
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 16px;
+}
+.pagination{
+    border: 1px solid $green;
+    border-radius: 5px;
+}
+.page-link{
+    border: 1px solid $green;
+}
+.modal-header-admin{
+    display: flex;
+    justify-content: space-between;
+}
+.modal-btn{
+    padding: 8px 32px;
+    margin-top: 16px;
+    margin-left: 12px;
+    margin-bottom: 16px;
 }
